@@ -1,0 +1,54 @@
+.encabezado {
+    background-color: #5f6e7c; /* Color de fondo oscuro */
+    color: #fff; 
+  }
+  
+.encabezado .navbar-brand, 
+.encabezado .nav-link {
+   color: #fff; /* Color del texto del enlace */
+}
+  
+.encabezado .nav-link:hover {
+    color: rgba(10, 2, 2, 0.75); /* Color del texto del enlace al tener el curson encima*/
+}
+
+body {
+  background-image: url('img/Fondo2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar-brand img {
+     width: 60px;
+  }
+
+.card {
+      width: 200px; /* establece el ancho de la carta */
+      height: 150px; /* establece la altura de la carta */
+}
+    
+.card-img-top {
+      width: 100%; /* establece el ancho de la imagen al 100% del contenedor */
+      height: 100%; /* establece la altura de la imagen al 100% del contenedor */
+}
+
+table {
+  border: black;
+  width: 100%;
+  background-color: gray;
+}
+
+th, td {
+  border: 4px solid black;
+  padding: 6px;
+  text-align: left;
+}
+.Titulos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; 
+  background-color: blue;
+  color: white;
+}
